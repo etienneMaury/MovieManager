@@ -1,0 +1,26 @@
+Pour demander un truc au serveur, il faut faire un get/put /post/delete /tamer
+sur l'adresse [racine du serveur, localhost quoi]/server/[nom de la ressource,genre film pour un film/ films pour la liste].php
+pour les arguments get on a :
+
+page=  -> pour recuperer une autre page
+
+...
+
+
+<genres page="1">
+    <genre id="C">
+        <libelle>Com餩e</libelle>
+    </genre>
+        <genre id="O">
+        <libelle>Com餩e dramatique</libelle>
+    </genre>
+        <genre id="D">
+        <libelle>Drame</libelle>
+    </genre>
+        <genre id="J">
+        <libelle>Jeunesse</libelle>
+    </genre>
+        <genre id="P">
+        <libelle>Policier</libelle>
+    </genre>
+</genres>
